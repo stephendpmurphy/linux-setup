@@ -42,6 +42,10 @@ sudo apt-get install xz-utils
 # Ceedling unit test framework
 sudo gem install ceedling
 
+# Install bat util
+wget https://github.com/sharkdp/bat/releases/download/v0.15.4/bat_0.15.4_amd64.deb
+sudo dpkg -i bat_0.15.4_amd64.deb
+
 # Download & Apply the Nordic Theme
 wget https://github.com/EliverLara/Nordic/releases/download/v1.9.0/Nordic-darker.tar.xz
 tar -xf ./Nordic-darker.tar.xz
