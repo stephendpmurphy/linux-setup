@@ -1,3 +1,7 @@
+echo "#######################################################################"
+echo "#################### FIRST TIME LINUX SETUP ###########################"
+echo "#######################################################################"
+
 ######## ASK FOR PASSWORD ONLY ONCE DURING 1 HOUR
 bypass() {
 	sudo -v
@@ -87,5 +91,8 @@ dconf load / < gnome_settings.dconf
 git clean -f -xd
 rm -r dynamic-panel-transparency
 
-echo "######## Setup complete. Enjoy! ########"
+echo "#######################################################################"
+echo "######## Setup complete. Please log out for settings to apply  ########"
+echo "#######################################################################"
+
 exit
